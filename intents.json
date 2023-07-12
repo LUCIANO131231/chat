@@ -1,0 +1,34 @@
+
+{
+  "intents": [
+    {
+      "tag" : "saludo", 
+      "patterns" : ["Hola, que tal?", "Hola", "Que tal?", "Buenas", "Buenas tardes", 
+                    "Buenas noches", "Habla", "Como estas?"], 
+      "responses" : ["Hola, soy la primera inteligencia artificial de los universitarios de la UDH",
+                      "Hola, en que te puedo ayudar?"] 
+    },
+
+    {
+      "tag" : "despedida", 
+      "patterns" : ["Adios","Hablamos","Hasta luego","Bye","Safo","Cuidate mano", "Nos vemos", "Hasta pronto"], 
+      "responses" : ["Hasta pronto, peruanito", "Espero que haya sido de ayuda"] 
+    },
+    {
+      "tag" : "scanner",
+      "patterns" : ["que es un scanner", "que hace para su funcionamiento"],
+      "responses" : ["un scanner es un dispositivo"]
+    },
+    {
+      "tag" : "hora",
+      "patterns" : ["que hora es?", "cual es la hora actual?","me puedes dar la hora?"],
+      "responses" : ["la  hora es ", "Son las "]
+    },
+    {
+      "tag" : "youtube",
+      "patterns" : ["quiero er youtube", "quiero ver un video ","reproduce un video de mi canal de youtube"],
+      "responses" : ["como se llama tu video?"]
+    }
+  ]
+}
+
